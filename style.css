@@ -148,8 +148,8 @@ h6 {
 }
 
 h1 {
-	font-size: 48px;
-	margin: 33px 0;
+	font-size: 140%;
+	margin: 10px 0;
 }
 
 h2 {
@@ -767,7 +767,7 @@ img.wp-smiley,
 .site {
 
 	margin: 0 auto;
-	max-width: 1150px;
+	max-width: 1070px;
 	width: 100%;
 }
 
@@ -801,8 +801,8 @@ img.wp-smiley,
  
  
  .uva-logo{
-	 max-width:300px;
-	 margin:20px 0px 0px 0px;
+	 max-width:280px;
+	 margin:15px 0px 0px 0px;
  }
 
 .site-header {
@@ -814,7 +814,7 @@ img.wp-smiley,
 	display: block;
 	margin: 0 auto;
 	max-width: 1080px;
-	min-height: 150px;
+	min-height: 130px;
 	padding: 0 20px;
 	text-decoration: none;
 	width: 100%;
@@ -857,7 +857,7 @@ img.wp-smiley,
 .navbar {
 	background-color: #f3efe9;
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 1090px;
 	width: 100%;
 }
 
@@ -916,7 +916,7 @@ img.wp-smiley,
 .sidebar .entry-summary,
 .sidebar .entry-meta {
 	max-width: 1040px;
-	padding: 0 376px 0 60px;
+	padding: 0 376px 0 0px;
 }
 
 
@@ -931,11 +931,11 @@ img.wp-smiley,
 
 .entry-thumbnail img {
 	display: block;
-	margin: 0 auto 10px;
+	margin: 0 auto 5px;
 }
 
 .entry-header {
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 
 .entry-title {

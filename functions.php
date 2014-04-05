@@ -119,7 +119,7 @@ add_action( 'after_setup_theme', 'twentythirteen_setup' );
  * @return string Font stylesheet or empty string if disabled.
  */
 function twentythirteen_fonts_url() {
-	$fonts_url = '';
+	$fonts_url = '//fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic,700|Open+Sans:400,600,700,300';
 
 	/* Translators: If there are characters in your language that are not
 	 * supported by Source Sans Pro, translate this to 'off'. Do not translate
