@@ -767,7 +767,7 @@ img.wp-smiley,
 .site {
 
 	margin: 0 auto;
-	max-width: 1250px;
+	max-width: 1150px;
 	width: 100%;
 }
 
@@ -855,9 +855,9 @@ img.wp-smiley,
 
 /* Navbar */
 .navbar {
-	background-color: #f7f5e7;
+	background-color: #f3efe9;
 	margin: 0 auto;
-	max-width: 1600px;
+	max-width: 1200px;
 	width: 100%;
 }
 

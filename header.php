@@ -59,6 +59,11 @@
 					<!-- <?php get_search_form(); ?> -->
 				</nav><!-- #site-navigation -->
 			</div><!-- #navbar -->
+				<?php if ( has_post_thumbnail() ) {
+					the_post_thumbnail();
+					} 
+				the_content(); ?>
+			
 		</header><!-- #masthead -->
 
 		<div id="main" class="site-main">
