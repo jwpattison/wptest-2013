@@ -24,6 +24,13 @@
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	
+	<!--CSS Files -->
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/jetmenu.css" media="screen" />
+	
+	<!--JS Files -->
+	<script src="<?php echo get_template_directory_uri(); ?>/js/jetmenu.js"></script>
+	
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
@@ -36,7 +43,94 @@
 			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 				<img src="http://www.commerce.virginia.edu/Style%20Library/McIntirePublic/images/logo.png" alt="University of Virginia" />
 			</a>
-
+			
+			<div id="navbar" class="navbar">
+				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
+			
+			<ul id="jetmenu" class="jetmenu blue">
+				
+				<li><a href="#">About McIntire</a>
+					<div style="text-align: justify" class="megamenu half-width">
+						<div class="row">
+							<div class="col2">
+								<img src="img/1.jpg" alt="image" />
+							</div>
+							<div class="col4">
+								Lorem ipsum dolor sit amet, consectetur meti facilisi a adipiscing elit. Amet
+								Curabitur nec lorem alty amet massalit fermentum massa eti. Nulla facilisi. 
+								Phasellus in rutrum felis, sed fringilla turpis. 
+								Etiam puris noiteki dignissim puruseli tempus, commodo neque eu. Dui curabitur cursus feugiat
+								ullamcorper a nibh nec, ost.
+							</div>
+						</div>
+						<div class="row">
+							<div class="col2">
+								<img src="img/2.jpg" alt="image" />
+							</div>
+							<div class="col4">
+								Aliquam erat volutpat. Nulla nec justo dui. Aeneanoi atet accumsan egestas tortor at lacinia. 
+								Pellentesque netus habitant morbi tristique senectus et netus etor egestasio malesuada fames ac turpis egestas. 
+								Utilo pellentesquetii laoreet leo eget pretium. Integeretus eleifend et mi at velo elementum. 
+								Maecenas vitaelo. 
+							</div>
+						</div>
+						<div class="row">
+							<div class="col2">
+								<img src="img/3.jpg" alt="image" />
+							</div>
+							<div class="col4">
+								Lorem ipsum dolor sit amet, consectetur meti facilisi a adipiscing elit. Amet
+								Curabitur nec lorem alty amet massalit fermentum massa eti. Nulla facilisi. 
+								Phasellus in rutrum felis, sed fringilla turpis. 
+								Etiam puris noiteki dignissim puruseli tempus, commodo neque eu. Dui curabitur cursus feugiat
+								ullamcorper a nibh nec, ost. 
+							</div>
+						</div>
+					</div>
+				</li>
+				
+				<li><a href="#">Academic Programs</a>
+					<div style="text-align: justify" class="megamenu half-width">
+						<div class="row">
+							<div class="col2">
+								<img src="img/1.jpg" alt="image" />
+							</div>
+							<div class="col4">
+								Lorem ipsum dolor sit amet, consectetur meti facilisi a adipiscing elit. Amet
+								Curabitur nec lorem alty amet massalit fermentum massa eti. Nulla facilisi. 
+								Phasellus in rutrum felis, sed fringilla turpis. 
+								Etiam puris noiteki dignissim puruseli tempus, commodo neque eu. Dui curabitur cursus feugiat
+								ullamcorper a nibh nec, ost.
+							</div>
+						</div>
+						<div class="row">
+							<div class="col2">
+								<img src="img/2.jpg" alt="image" />
+							</div>
+							<div class="col4">
+								Aliquam erat volutpat. Nulla nec justo dui. Aeneanoi atet accumsan egestas tortor at lacinia. 
+								Pellentesque netus habitant morbi tristique senectus et netus etor egestasio malesuada fames ac turpis egestas. 
+								Utilo pellentesquetii laoreet leo eget pretium. Integeretus eleifend et mi at velo elementum. 
+								Maecenas vitaelo. 
+							</div>
+						</div>
+						<div class="row">
+							<div class="col2">
+								<img src="img/3.jpg" alt="image" />
+							</div>
+							<div class="col4">
+								Lorem ipsum dolor sit amet, consectetur meti facilisi a adipiscing elit. Amet
+								Curabitur nec lorem alty amet massalit fermentum massa eti. Nulla facilisi. 
+								Phasellus in rutrum felis, sed fringilla turpis. 
+								Etiam puris noiteki dignissim puruseli tempus, commodo neque eu. Dui curabitur cursus feugiat
+								ullamcorper a nibh nec, ost. 
+							</div>
+						</div>
+					</div>
+				</li>
+				
+				
+			</ul>
 			
 					<?php get_search_form(); ?>
 				</nav><!-- #site-navigation -->
