@@ -25,11 +25,16 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	
-	<!--CSS Files -->
+	<!--CSS -->
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/jetmenu.css" media="screen" />
 	
-	<!--JS Files -->
-	<script src="<?php echo get_template_directory_uri(); ?>/js/jetmenu.js"></script>
+	<!--JavaScript -->
+	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jetmenu.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function(){  
+				$().jetmenu();
+			});
+		</script>
 	
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
@@ -124,6 +129,61 @@
 								Phasellus in rutrum felis, sed fringilla turpis. 
 								Etiam puris noiteki dignissim puruseli tempus, commodo neque eu. Dui curabitur cursus feugiat
 								ullamcorper a nibh nec, ost. 
+							</div>
+						</div>
+					</div>
+				</li>
+				
+				
+				
+				<li><a href="#">Faculty &amp; Research</a>
+					<div style="text-align: justify" class="megamenu half-width">
+						<div class="row">
+							<div class="col2">
+								<img src="img/1.jpg" alt="image" />
+							</div>
+							<div class="col4">
+								Lorem ipsum dolor sit amet, consectetur meti facilisi a adipiscing elit. Amet
+								Curabitur nec lorem alty amet massalit fermentum massa eti. Nulla facilisi. 
+								Phasellus in rutrum felis, sed fringilla turpis. 
+								Etiam puris noiteki dignissim puruseli tempus, commodo neque eu. Dui curabitur cursus feugiat
+								ullamcorper a nibh nec, ost.
+							</div>
+						</div>
+					</div>
+				</li>
+				
+				
+				<li><a href="#">Recruiters &amp; Companies</a>
+					<div style="text-align: justify" class="megamenu half-width">
+						<div class="row">
+							<div class="col2">
+								<img src="img/1.jpg" alt="image" />
+							</div>
+							<div class="col4">
+								Lorem ipsum dolor sit amet, consectetur meti facilisi a adipiscing elit. Amet
+								Curabitur nec lorem alty amet massalit fermentum massa eti. Nulla facilisi. 
+								Phasellus in rutrum felis, sed fringilla turpis. 
+								Etiam puris noiteki dignissim puruseli tempus, commodo neque eu. Dui curabitur cursus feugiat
+								ullamcorper a nibh nec, ost.
+							</div>
+						</div>
+					</div>
+				</li>
+				
+				
+				<li><a href="#">Alumni &amp; Friends</a>
+					<div style="text-align: justify" class="megamenu half-width">
+						<div class="row">
+							<div class="col2">
+								<img src="img/1.jpg" alt="image" />
+							</div>
+							<div class="col4">
+								Lorem ipsum dolor sit amet, consectetur meti facilisi a adipiscing elit. Amet
+								Curabitur nec lorem alty amet massalit fermentum massa eti. Nulla facilisi. 
+								Phasellus in rutrum felis, sed fringilla turpis. 
+								Etiam puris noiteki dignissim puruseli tempus, commodo neque eu. Dui curabitur cursus feugiat
+								ullamcorper a nibh nec, ost.
 							</div>
 						</div>
 					</div>
