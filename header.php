@@ -44,7 +44,7 @@
 
 <body <?php body_class(); ?>>
 	<div id="page" class="hfeed site">
-		<header id="masthead" role="banner">
+		<header id="masthead"  class="site-header" role="banner">
 			<a class="home-link" href="http://www.commerce.virginia.edu/" title="University of Virginia McIntire School of Commerce" rel="home">
 				<img src="http://www.commerce.virginia.edu/Style%20Library/McIntirePublic/images/logo.png" alt="University of Virginia" />
 			</a>
