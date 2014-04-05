@@ -110,7 +110,7 @@ body {
 	color: #141412;
 	line-height: 1.5;
 	margin: 0;
-	background-color:#f8f7f5;
+	background-color:#ffdfdfb;
 }
 
 a {
@@ -765,9 +765,7 @@ img.wp-smiley,
  */
 
 .site {
-	background-color: #fff;
-	border-left: 1px solid #f2f2f2;
-	border-right: 1px solid #f2f2f2;
+
 	margin: 0 auto;
 	max-width: 1250px;
 	width: 100%;
@@ -800,6 +798,12 @@ img.wp-smiley,
  * 4.1 Site Header
  * ----------------------------------------------------------------------------
  */
+ 
+ 
+ .uva-logo{
+	 max-width:300px;
+	 margin:20px 0px 0px 0px;
+ }
 
 .site-header {
 	position: relative;
@@ -810,7 +814,7 @@ img.wp-smiley,
 	display: block;
 	margin: 0 auto;
 	max-width: 1080px;
-	min-height: 230px;
+	min-height: 150px;
 	padding: 0 20px;
 	text-decoration: none;
 	width: 100%;
@@ -2429,7 +2433,7 @@ footer.entry-meta {
  */
 
 .site-footer {
-	background-color: #e8e5ce;
+	background-color: #f2efe7;
 	color: #686758;
 	font-size: 14px;
 	text-align: center;

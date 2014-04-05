@@ -16,6 +16,13 @@
 
 			<div class="site-info">
 				
+McIntire School of Commerce University of Virginia<br />
+
+Charlottesville, VA<br />
+
+All Rights Reserved © 2014<br />
+
+Contact Us • Maps & Directions • Careers at McIntire
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->

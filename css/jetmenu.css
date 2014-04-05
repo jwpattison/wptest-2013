@@ -16,7 +16,7 @@ ITEM PAGE: http://codecanyon.net/item/jet-responsive-megamenu/5719593
 	position: relative;
 	float: left;
 	list-style: none;
-	background: #333333;
+	background: #f0efea;
 }
 .jetmenu li{
 	display: inline-block;
@@ -34,7 +34,7 @@ ITEM PAGE: http://codecanyon.net/item/jet-responsive-megamenu/5719593
 	padding: 20px 24px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-	color: #999;
+	color: #3e3e3e;
 	text-decoration: none;
 	display: inline-block;
 }
@@ -364,96 +364,13 @@ ITEM PAGE: http://codecanyon.net/item/jet-responsive-megamenu/5719593
 /* STYLES
 **********************************************************/
 
-/* black */
-.black > li:hover > a, .black > li.active > a{ background: #111111;	color: #fff; }
-.black ul.dropdown li:hover > a{ background: #111111; color: #fff; }
-.black li > .megamenu form input[type="text"]:focus, .black li > .megamenu form textarea:focus{ border-color: #111111; }
-.black li > .megamenu form input[type="submit"]:hover{ background: #111111; color: #fff; }
-.black li > .megamenu a:hover{ color: #dedede; }
-
-/* grey */
-.grey > li:hover > a, .grey > li.active > a{ background: #82837E;	color: #fff; }
-.grey ul.dropdown li:hover > a{ background: #82837E; color: #fff; }
-.grey li > .megamenu form input[type="text"]:focus, .grey li > .megamenu form textarea:focus{ border-color: #82837E; }
-.grey li > .megamenu form input[type="submit"]:hover{ background: #82837E; color: #fff; }
-.grey li > .megamenu a:hover{ color: #dedede; }
-
 /* blue */
-.blue > li:hover > a, .blue > li.active > a{	background: #02b8fa; color: #fff; }
-.blue ul.dropdown li:hover > a{ background: #02b8fa; color: #fff; }
-.blue li > .megamenu form input[type="text"]:focus, .blue li > .megamenu form textarea:focus{ border-color: #02b8fa; }
-.blue li > .megamenu form input[type="submit"]:hover{ background: #02b8fa; color: #fff; }
-.blue li > .megamenu a:hover{ color: #02b8fa; }
+.blue > li:hover > a, .blue > li.active > a{	background: #0b487e; color: #fff; }
+.blue ul.dropdown li:hover > a{ background: #0b487e; color: #fff; }
+.blue li > .megamenu form input[type="text"]:focus, .blue li > .megamenu form textarea:focus{ border-color: #0b487e; }
+.blue li > .megamenu form input[type="submit"]:hover{ background: #0b487e; color: #fff; }
+.blue li > .megamenu a:hover{ color: #0b487e; }
 
-/* deeper */
-.deeper > li:hover > a, .deeper > li.active > a{	background: #008C9E; color: #fff; }
-.deeper ul.dropdown li:hover > a{ background: #008C9E; color: #fff; }
-.deeper li > .megamenu form input[type="text"]:focus, .deeper li > .megamenu form textarea:focus{ border-color: #008C9E; }
-.deeper li > .megamenu form input[type="submit"]:hover{ background: #008C9E; color: #fff; }
-.deeper li > .megamenu a:hover{ color: #008C9E; }
-
-/* green */
-.green > li:hover > a, .green > li.active > a{ background: #88c425;	color: #fff; }
-.green ul.dropdown li:hover > a{ background: #88c425; color: #fff; }
-.green li > .megamenu form input[type="text"]:focus, .green li > .megamenu form textarea:focus{ border-color: #88c425; }
-.green li > .megamenu form input[type="submit"]:hover{ background: #88c425; color: #fff; }
-.green li > .megamenu a:hover{ color: #88c425; }
-
-/* emerald */
-.emerald > li:hover > a, .emerald > li.active > a{ background: #2ecc71;	color: #fff; }
-.emerald ul.dropdown li:hover > a{ background: #2ecc71; color: #fff; }
-.emerald li > .megamenu form input[type="text"]:focus, .emerald li > .megamenu form textarea:focus{ border-color: #2ecc71; }
-.emerald li > .megamenu form input[type="submit"]:hover{ background: #2ecc71; color: #fff; }
-.emerald li > .megamenu a:hover{ color: #2ecc71; }
-
-/* red */
-.red > li:hover > a, .red > li.active > a{ background: #C21A01;	color: #fff; }
-.red ul.dropdown li:hover > a{ background: #C21A01; color: #fff; }
-.red li > .megamenu form input[type="text"]:focus, .red li > .megamenu form textarea:focus{ border-color: #C21A01; }
-.red li > .megamenu form input[type="submit"]:hover{ background: #C21A01; color: #fff; }
-.red li > .megamenu a:hover{ color: #C21A01; }
-
-/* pox */
-.pox > li:hover > a, .pox > li.active > a{ background: #FA023C;	color: #fff; }
-.pox ul.dropdown li:hover > a{ background: #FA023C; color: #fff; }
-.pox li > .megamenu form input[type="text"]:focus, .pox li > .megamenu form textarea:focus{ border-color: #FA023C; }
-.pox li > .megamenu form input[type="submit"]:hover{ background: #FA023C; color: #fff; }
-.pox li > .megamenu a:hover{ color: #FA023C; }
-
-/* orange */
-.orange > li:hover > a, .orange > li.active > a{	background: #ff670f; color: #fff; }
-.orange ul.dropdown li:hover > a{ background: #ff670f; color: #fff; }
-.orange li > .megamenu form input[type="text"]:focus, .orange li > .megamenu form textarea:focus{ border-color: #ff670f; }
-.orange li > .megamenu form input[type="submit"]:hover{ background: #ff670f; color: #fff; }
-.orange li > .megamenu a:hover{ color: #ff670f; }
-
-/* sunburst */
-.sunburst > li:hover > a, .sunburst > li.active > a{	background: #D46D22; color: #fff; }
-.sunburst ul.dropdown li:hover > a{ background: #D46D22; color: #fff; }
-.sunburst li > .megamenu form input[type="text"]:focus, .sunburst li > .megamenu form textarea:focus{ border-color: #D46D22; }
-.sunburst li > .megamenu form input[type="submit"]:hover{ background: #D46D22; color: #fff; }
-.sunburst li > .megamenu a:hover{ color: #D46D22; }
-
-/* yellow */
-.yellow > li:hover > a, .yellow > li.active > a{	background: #febf01; color: #222; }
-.yellow ul.dropdown li:hover > a{ background: #febf01; color: #222; }
-.yellow li > .megamenu form input[type="text"]:focus, .yellow li > .megamenu form textarea:focus{ border-color: #febf01; }
-.yellow li > .megamenu form input[type="submit"]:hover{ background: #febf01; color: #222; }
-.yellow li > .megamenu a:hover{ color: #febf01; }
-
-/* purple */
-.purple > li:hover > a, .purple > li.active > a{	background: #a849a3; color: #fff; }
-.purple ul.dropdown li:hover > a{ background: #a849a3; color: #fff; }
-.purple li > .megamenu form input[type="text"]:focus, .purple li > .megamenu form textarea:focus{ border-color: #a849a3; }
-.purple li > .megamenu form input[type="submit"]:hover{ background: #a849a3; color: #fff; }
-.purple li > .megamenu a:hover{ color: #a849a3; }
-
-/* pink */
-.pink > li:hover > a, .pink > li.active > a{	background: #F56991; color: #fff; }
-.pink ul.dropdown li:hover > a{ background: #F56991; color: #fff; }
-.pink li > .megamenu form input[type="text"]:focus, .pink li > .megamenu form textarea:focus{ border-color: #F56991; }
-.pink li > .megamenu form input[type="submit"]:hover{ background: #F56991; color: #fff; }
-.pink li > .megamenu a:hover{ color: #F56991; }
 
 /* RESPONSIVE LAYOUT
 **********************************************************/
