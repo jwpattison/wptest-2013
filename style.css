@@ -103,7 +103,7 @@ button,
 input,
 select,
 textarea {
-	font-family: 'Lora', serif;
+	font-family: 'Gentium Book Basic', serif;
 	font-size:110%;
 	color:#444;
 	}
@@ -146,12 +146,13 @@ h6 {
 	clear: both;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	line-height: 1.3;
-	font-weight:700;
+
+
 }
 
 h1 {
 	font-size: 170%;
-	margin: 10px 0 20px 0;
+	margin: 10px 0 15px 0;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-weight:700;
 	letter-spacing:-1px;
@@ -159,8 +160,11 @@ h1 {
 }
 
 h2 {
-	font-size: 30px;
-	margin: 25px 0;
+	font-size: 140%;
+	margin: 8px 0px 15px 0px;;
+	font-size: 140%;
+	font-weight:300;
+	color: #01467f !important;
 }
 
 h3 {
@@ -179,8 +183,7 @@ h5 {
 }
 
 h6 {
-	font-size: 16px;
-	margin: 36px 0;
+
 }
 
 address {
@@ -934,6 +937,27 @@ img.wp-smiley,
 {
 font-size:122%;
 line-height:1.4 !important;
+}
+
+.mega-list
+{
+font-size:140%;
+font-family:'Open Sans', Helvetica;
+font-weight:300;
+list-style-type:none;
+max-width:450px;
+}
+
+
+.mega-list a{
+display:block;
+width:100%;
+height:100%;
+padding:10px 0px 10px 16px;
+}
+
+.mega-list a:hover{
+background-color:#eaeaea;
 }
 
 /**

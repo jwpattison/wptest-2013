@@ -29,7 +29,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/jetmenu.css" media="screen" />
 	
 	<!--Google Fonts API -->
-	<link href='http://fonts.googleapis.com/css?family=?family=Lora:400,400italic,700'|Open+Sans:400,600,700,300,300italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic,700|Open+Sans:400,700,300,300italic' rel='stylesheet' type='text/css'>
 	
 	<!--JavaScript -->
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jetmenu.js"></script>
